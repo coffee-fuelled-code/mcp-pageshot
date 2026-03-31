@@ -1,0 +1,54 @@
+{
+  "name": "mcp-pageshot",
+  "version": "1.0.0",
+  "description": "MCP server for checking Open Graph tags and social media preview readiness. Score any URL's social preview readiness (0-10) across Twitter, LinkedIn, Facebook, and Slack.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-pageshot": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "open-graph",
+    "og-tags",
+    "social-media",
+    "preview",
+    "seo",
+    "twitter-card",
+    "linkedin",
+    "meta-tags",
+    "claude",
+    "ai-tools"
+  ],
+  "author": "Uncommon Digital Group <support@uncommondigitalgroup.com> (https://uncommondigitalgroup.com)",
+  "license": "MIT",
+  "homepage": "https://pageshot.uncommondigitalgroup.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffee-fuelled-code/mcp-pageshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coffee-fuelled-code/mcp-pageshot/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
