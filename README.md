@@ -12,7 +12,7 @@ Check any URL's Open Graph tags and social media preview readiness from your AI 
 ## Installation
 
 ```bash
-npm install @uncommon/mcp-pageshot
+npx -y github:coffee-fuelled-code/mcp-pageshot   # runs it straight from GitHub (builds on first run)
 ```
 
 ### Claude Desktop
@@ -24,7 +24,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "pageshot": {
       "command": "npx",
-      "args": ["@uncommon/mcp-pageshot"]
+      "args": ["-y", "github:coffee-fuelled-code/mcp-pageshot"]
     }
   }
 }
@@ -35,7 +35,7 @@ Add to your `claude_desktop_config.json`:
 Run via stdio:
 
 ```bash
-npx @uncommon/mcp-pageshot
+npx -y github:coffee-fuelled-code/mcp-pageshot
 ```
 
 ## Tools
