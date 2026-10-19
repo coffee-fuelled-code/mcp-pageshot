@@ -12,7 +12,7 @@ Check any URL's Open Graph tags and social media preview readiness from your AI 
 ## Installation
 
 ```bash
-npx -y github:coffee-fuelled-code/mcp-pageshot   # runs it straight from GitHub (builds on first run)
+npx -y github:coffee-fuelled-code/mcp-pageshot   # runs it straight from GitHub
 ```
 
 ### Claude Desktop
